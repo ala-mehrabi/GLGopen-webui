@@ -2,7 +2,7 @@ name: Build & Push Docker Image
 
 on:
   push:
-    branches: [ "main" ]        # اگر بعداً از custom-ui می‌سازی، اینو بکن "custom-ui"
+    branches: [ "custom-ui" ]        # اگر بعداً از custom-ui می‌سازی، اینو بکن "custom-ui"
   workflow_dispatch: {}          # اجرا دستی از تب Actions
 
 concurrency:
